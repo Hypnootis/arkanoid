@@ -2,15 +2,21 @@
 
 #include "raylib-cpp.hpp"
 
+template<typename Size>
 class Entity {
     public:
-        
-    explicit Entity(raylib::Vector2 size, raylib::Vector2 initPosition){
+    explicit Entity(Size size, raylib::Vector2 initPosition){
         this->size = size;
         this->position = initPosition;
     }
-        raylib::Vector2 getPosition();
+        raylib::Vector2 getPosition(){
+            return this->position;
+        }
+        void move(raylib::Vector2 newPosition){
+            this->position += newPosition;
+        }
         virtual void draw() = 0;
-        raylib::Vector2 size;
+        Size size;
         raylib::Vector2 position;
+
 };

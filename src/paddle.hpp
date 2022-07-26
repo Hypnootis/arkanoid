@@ -1,12 +1,10 @@
 #pragma once
 
-#include "raylib-cpp.hpp"
 #include "entity.hpp"
 
-class Paddle : public Entity {
+class Paddle : public Entity<raylib::Vector2> {
     public:
         using Entity::Entity;
-        void movePaddle(raylib::Vector2 newPosition);
         void draw();
 
 };

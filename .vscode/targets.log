@@ -1,233 +1,300 @@
-C:\msys64\mingw64\bin\mingw32-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.3
-# Built for Windows32
+# Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 21 13:11:36 2022
+# Make data base, printed on Tue Jul 26 23:22:52 2022
 
 # Variables
 
 # environment
-SYSTEMDRIVE = C:
+GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # makefile (from 'Makefile', line 18)
 compileFlags := -std=c++17 -I include
 # environment
-USERPROFILE = C:\Users\tmpas
+GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-LOCALAPPDATA = C:\Users\tmpas\AppData\Local
+SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
-VSCODE_CWD = C:\Users\tmpas\AppData\Local\Programs\Microsoft VS Code
+SNAP_INSTANCE_KEY = 
+# makefile (from 'Makefile', line 35)
+UNAMEOS := Linux
 # environment
-SYSTEMROOT = C:\WINDOWS
+LC_NAME = fi_FI.UTF-8
 # environment
-PROCESSOR_LEVEL = 6
+LC_NUMERIC = fi_FI.UTF-8
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
-# makefile (from 'Makefile', line 28)
-THEN := &&
+VSCODE_CWD = /home/tuomas/Desktop/Projects/arkanoid
+# environment
+WINDOWPATH = 2
+# environment
+LC_ADDRESS = fi_FI.UTF-8
+# makefile (from 'Makefile', line 51)
+THEN := ;
 # default
-MAKE_COMMAND := C:/msys64/mingw64/bin/mingw32-make.exe
-# automatic
-@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+MAKE_COMMAND := make
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16928_KYFRVSZSFOJKFCXC
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
+# environment
+PWD = /home/tuomas/Desktop/Projects/arkanoid
 # automatic
-%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # automatic
-^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\tmpas\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = /home/tuomas/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .LOADED := 
-# environment
-TMP = C:\Users\tmpas\AppData\Local\Temp
 # default
-.INCLUDE_DIRS = .
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+GNOME_TERMINAL_SERVICE = :1.365
 # makefile
 MAKEFLAGS = pqrR
-# environment
-ONEDRIVE = C:\Users\tmpas\OneDrive
 # makefile (from 'Makefile', line 17)
 depends :=  bin/entity.d  bin/main.d  bin/paddle.d
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=37f782b2cb16152ca3e1f1ea62e02737
 # makefile
-CURDIR := c:/Projects/cpp/paska
+CURDIR := /home/tuomas/Desktop/Projects/arkanoid
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# makefile (from 'Makefile', line 29)
-PATHSEP := \
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile', line 52)
+PATHSEP := /
 # automatic
-*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
-# environment
-PROGRAMFILES = C:\Program Files
+*D = $(patsubst %/,%,$(dir $*))
 # environment
 MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
 # environment
-COMMONPROGRAMW6432 = C:\Program Files\Common Files
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # automatic
-+D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
-# makefile (from 'bin/paddle.d', line 1)
-MAKEFILE_LIST := Makefile bin/entity.d bin/main.d bin/paddle.d
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
 # automatic
 @F = $(notdir $@)
 # environment
-PT8HOME = C:\Program Files\Cisco Packet Tracer 8.1.1
-# environment
-VSCODE_PID = 16928
+VSCODE_PID = 22183
 # makefile (from 'Makefile', line 15)
 sources := src/entity.cpp src/main.cpp src/paddle.cpp          
+# environment
+XDG_SESSION_TYPE = x11
 # makefile (from 'Makefile', line 9)
 platformpth = $(subst /,$(PATHSEP),$1)
 # automatic
-?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/TUOMAS-PC:@/tmp/.ICE-unix/2091,unix/TUOMAS-PC:/tmp/.ICE-unix/2091
 # automatic
 *F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=37f782b2cb16152ca3e1f1ea62e02737
 # automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+<D = $(patsubst %/,%,$(dir $<))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-ONEDRIVECONSUMER = C:\Users\tmpas\OneDrive
 # default
-MAKE_HOST := Windows32
+MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PROGRAMDATA = C:\ProgramData
-# default
-SHELL := sh.exe
-# environment
-HOMEPATH = \Users\tmpas
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
 # default
 MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
 # makefile (from 'Makefile', line 16)
 objects :=  bin/entity.o  bin/main.o  bin/paddle.o
 # environment
-DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+SHLVL = 1
 # environment
-COMSPEC = C:\WINDOWS\system32\cmd.exe
-# environment
-WINDIR = C:\WINDOWS
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1055fbb5_d9de_4cf1_ac2c_47bf4c1b5a1a
 # environment
 MAKELEVEL := 0
-# makefile (from 'Makefile', line 30)
-MKDIR := -mkdir -p
+# makefile (from 'Makefile', line 53)
+MKDIR := mkdir -p
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\tmpas\AppData\Local\Programs\Python\Python39;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\PuTTY\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\tmpas\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\tmpas\AppData\Local\Programs\Python\Py 
-thon39\;C:\Users\tmpas\.cargo\bin;C:\Users\tmpas\AppData\Local\Microsoft\WindowsApps;C:\Users\tmpas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tmpas\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Nmap;C:\msys64\mingw64\bin;
+SNAP_COOKIE = 84W_0YzStv3rEs0SAiNseyYdl14fZ4RmCCWIq7i019VfDWyChJnZ
 # environment
-COMPUTERNAME = DESKTOP-SMOBNTK
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
+# environment
+LC_MONETARY = fi_FI.UTF-8
 # automatic
 ^F = $(notdir $^)
 # environment
-PROMPT = $P$G
-# makefile (from 'Makefile', line 27)
-libGenDir := src
+SNAP_USER_COMMON = /home/tuomas/snap/code/common
 # environment
-LOGONSERVER = \\DESKTOP-SMOBNTK
+LC_TIME = fi_FI.UTF-8
 # environment
-USERNAME = tmpas
-# makefile (from 'Makefile', line 26)
-linkFlags = -L lib/$(platform) -l raylib -Wl,--allow-multiple-definition -pthread -lopengl32 -lgdi32 -lwinmm -mwindows -static -static-libgcc -static-libstdc++
+SNAP = /snap/code/102
 # environment
-COMMONPROGRAMFILES = C:\Program Files\Common Files
+SNAP_REVISION = 102
+# environment
+SNAP_REAL_HOME = /home/tuomas
+# environment
+USERNAME = tuomas
+# makefile (from 'Makefile', line 40)
+linkFlags = -L lib/$(platform) -l raylib -l GL -l m -l pthread -l dl -l rt -l X11
+# environment
+LC_TELEPHONE = fi_FI.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
 ?F = $(notdir $?)
 # environment
-PROGRAMW6432 = C:\Program Files
+XDG_CURRENT_DESKTOP = Unity
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # automatic
 +F = $(notdir $+)
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+DESKTOP_SESSION = ubuntu
 # environment
-USERDOMAIN = DESKTOP-SMOBNTK
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-OS = Windows_NT
+LOGNAME = tuomas
+# environment
+SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := all
-# makefile (from 'Makefile', line 31)
-RM := -del /q
-# makefile (from 'Makefile', line 24)
-platform := Windows
+# environment
+SYSTEMD_EXEC_PID = 2091
+# makefile (from 'Makefile', line 54)
+RM := rm -rf
+# makefile (from 'Makefile', line 38)
+platform := Linux
+# environment
+DISPLAY = :1
+# environment
+USER = tuomas
+# environment
+GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
-# makefile (from 'Makefile', line 32)
-COPY = -robocopy "$(call platformpth,$1)" "$(call platformpth,$2)" $3
+# 'override' directive
+.SHELLSTATUS := 0
 # environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
+DISABLE_WAYLAND = 1
+# makefile (from 'Makefile', line 55)
+COPY = cp $1$(PATHSEP)$3 $2
 # environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-SMOBNTK
+SNAP_DATA = /var/snap/code/102
 # environment
-NUMBER_OF_PROCESSORS = 8
+SNAP_CONTEXT = 84W_0YzStv3rEs0SAiNseyYdl14fZ4RmCCWIq7i019VfDWyChJnZ
 # environment
-PUBLIC = C:\Users\Public
+DBUS_STARTER_BUS_TYPE = session
 # environment
-APPDATA = C:\Users\tmpas\AppData\Roaming
+LC_MEASUREMENT = fi_FI.UTF-8
 # environment
-HOMEDRIVE = C:
+LC_PAPER = fi_FI.UTF-8
 # environment
-PROCESSOR_ARCHITECTURE = AMD64
+XDG_RUNTIME_DIR = /run/user/1000
 # environment
-PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/tuomas/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # makefile (from 'Makefile', line 12)
 buildDir := bin
 # environment
+XDG_SESSION_CLASS = user
+# environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+HOME = /home/tuomas
+# environment
+QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-TEMP = C:\Users\tmpas\AppData\Local\Temp
+VSCODE_IPC_HOOK = /run/user/1000/vscode-55fd68db-1.69.2-main.sock
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\0d9026a3ff619df4d3add967cb8b74a1-1.69.2-main-sock
+TERM = xterm-256color
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
+# environment
+SNAP_VERSION = 3b889b09
 # default
 SUFFIXES := 
 # environment
-ALLUSERSPROFILE = C:\ProgramData
+VSCODE_CLI = 1
 # environment
-SESSIONNAME = Console
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # makefile (from 'Makefile', line 13)
 executable := app
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
-PROCESSOR_REVISION = 7e05
+VTE_VERSION = 6800
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # makefile (from 'Makefile', line 14)
 target := bin/app
-# makefile (from 'Makefile', line 25)
+# makefile (from 'Makefile', line 39)
 CXX = g++
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+SNAP_USER_DATA = /home/tuomas/snap/code/102
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = fi_FI.UTF-8
 # makefile (from 'Makefile', line 8)
-rwildcard = $(wildcard $1$2) $(foreach d,$ 
-(wildcard $1*),$(call rwildcard,$d/,$2))
+rwildcard = $(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
+ 
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=107/1024=10%, Rehash=0, Collisions=15/178=8%
+# Load=141/1024=14%, Rehash=0, Collisions=20/213=9%
 
 # Pattern-specific Variable Values
 
@@ -235,15 +302,15 @@ rwildcard = $(wildcard $1$2) $(foreach d,$
 
 # Directories
 
-# src/paddle.cpp (key c:/Projects/cpp/paska/src/paddle.cpp, mtime 1658276959): could not be opened.
-# src/paddle.hpp (key c:/Projects/cpp/paska/src/paddle.hpp, mtime 1658276064): could not be opened.
-# src/main.cpp (key c:/Projects/cpp/paska/src/main.cpp, mtime 1658398291): could not be opened.
-# src (key c:/Projects/cpp/paska/src, mtime 1658272816): 7 files, no impossibilities.
-# src/entity.hpp (key c:/Projects/cpp/paska/src/entity.hpp, mtime 1658276929): could not be opened.
-# . (key c:/Projects/cpp/paska, mtime 1658250658): 17 files, no impossibilities.
-# src/entity.cpp (key c:/Projects/cpp/paska/src/entity.cpp, mtime 1658276833): could not be opened.
+# src/paddle.cpp (device 66306, inode 3147817): could not be opened.
+# src/paddle.hpp (device 66306, inode 3147818): could not be opened.
+# src/main.cpp (device 66306, inode 3147816): could not be opened.
+# src (device 66306, inode 3147813): 7 files, no impossibilities.
+# src/entity.hpp (device 66306, inode 3147815): could not be opened.
+# . (device 66306, inode 3146224): 15 files, no impossibilities.
+# src/entity.cpp (device 66306, inode 3147814): could not be opened.
 
-# 24 files, no impossibilities in 7 directories.
+# 22 files, no impossibilities in 7 directories.
 
 # Implicit Rules
 
@@ -266,58 +333,30 @@ execute:
 # Not a target:
 bin/main.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-20 03:28:54
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
-include/./Camera2D.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-src/paddle.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-20 03:14:24
-#  File has been updated.
-#  Successfully updated.
-
-bin/entity.o: src/entity.cpp Makefile src/entity.cpp include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Texture.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/entity.hpp
+bin/entity.o: src/entity.cpp Makefile
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'entity'
-#  Last modified 2022-07-20 03:28:53
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 93):
-	$(MKDIR) $(call platformpth, $(@D))
-	$(CXX) -MMD -MP -c $(compileFlags) $< -o $@ $(CXXFLAGS)
-
-include/./././raylib.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-bin/main.o: src/main.cpp Makefile src/main.cpp include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Texture.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/paddle.hpp src/entity.hpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'main'
-#  Last modified 2022-07-20 03:28:54
+#  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
-# @ := bin/main.o
+# @ := bin/entity.o
 # automatic
-# * := main
+# * := entity
 # automatic
-# < := src/main.cpp
+# < := src/entity.cpp
 # automatic
-# + := src/main.cpp Makefile src/main.cpp include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Texture.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/paddle.hpp src/entity.hpp
+# + := src/entity.cpp Makefile
 # automatic
 # % := 
 # automatic
-# ^ := src/main.cpp Makefile include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/paddle.hpp src/entity.hpp
+# ^ := src/entity.cpp Makefile
 # automatic
-# ? := src/main.cpp
+# ? := src/entity.cpp Makefile
 # automatic
 # | := 
 # variable set hash-table stats:
@@ -325,6 +364,12 @@ bin/main.o: src/main.cpp Makefile src/main.cpp include/raylib-cpp.hpp include/./
 #  recipe to execute (from 'Makefile', line 93):
 	$(MKDIR) $(call platformpth, $(@D))
 	$(CXX) -MMD -MP -c $(compileFlags) $< -o $@ $(CXXFLAGS)
+
+# Not a target:
+bin/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 submodules:
 #  Phony target (prerequisite of .PHONY).
@@ -343,50 +388,14 @@ setup: include lib
 # Not a target:
 bin/paddle.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-20 03:28:54
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-include/././Vector2.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Mesh.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Text.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./././raymath.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./ModelAnimation.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Vector4.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:49:12
+#  Last modified 2022-07-26 23:22:44.67482473
 #  File has been updated.
 #  Successfully updated.
 
@@ -399,24 +408,6 @@ lib: submodules
 	$(MKDIR) $(call platformpth, lib/$(platform))
 	$(call COPY,vendor/raylib/$(libGenDir),lib/$(platform),libraylib.a)
 
-include/./BoundingBox.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././raylib.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:57
-#  File has been updated.
-#  Successfully updated.
-
-include/./RayCollision.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
 bin/app: bin/entity.o bin/main.o bin/paddle.o
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -426,12 +417,6 @@ bin/app: bin/entity.o bin/main.o bin/paddle.o
 # Load=0/32=0%, Rehash=0, Collisions=0/11=0%
 #  recipe to execute (from 'Makefile', line 86):
 	$(CXX) $(objects) -o $(target) $(linkFlags)
-
-include/./Shader.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
 
 include: submodules
 #  Implicit rule search has not been done.
@@ -443,19 +428,6 @@ include: submodules
 	$(call COPY,vendor/raylib/src,./include,raymath.h)
 	$(call COPY,vendor/raylib-cpp/include,./include,*.hpp)
 
-# Not a target:
-src/main.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-21 13:11:31
-#  File has been updated.
-#  Successfully updated.
-
-include/././Model.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -464,130 +436,17 @@ clean:
 #  recipe to execute (from 'Makefile', line 102):
 	$(RM) $(call platformpth, $(buildDir)/*)
 
-include/./Vector2.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././Vector3.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Camera3D.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Window.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-src/entity.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-20 03:28:49
-#  File has been updated.
-#  Successfully updated.
-
-include/./Mouse.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Wave.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Color.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./././raymath.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:57
-#  File has been updated.
-#  Successfully updated.
-
-include/././RayCollision.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./././raylib-cpp-utils.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-bin/paddle.o: src/paddle.cpp src/paddle.hpp include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Texture.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/entity.hpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
 # Not a target:
-src/paddle.cpp:
+bin/paddle.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-include/./VrStereoConfig.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/raylib-cpp.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././BoundingBox.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./AudioDevice.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././raylib.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-include/././raylib-cpp-utils.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Material.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
 
 all: bin/app execute clean
 #  Phony target (prerequisite of .PHONY).
@@ -599,171 +458,39 @@ all: bin/app execute clean
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/11=0%
 
-include/./Font.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././Mesh.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
 # Not a target:
 src/entity.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-20 03:27:13
-#  File has been updated.
-#  Successfully updated.
-
-include/./Image.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Matrix.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Sound.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Texture.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././raymath.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./RenderTexture.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././Material.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
+#  Last modified 2022-07-26 22:10:33.738270012
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 bin/entity.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-20 03:28:53
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-include/./AudioStream.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././Vector4.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Model.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Vector3.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Rectangle.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Gamepad.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./././Mesh.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Ray.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./Functions.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./././RaylibException.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 .PHONY: all setup submodules execute clean
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-include/./Music.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/./RaylibException.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
-include/././RaylibException.hpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-07 12:51:59
-#  File has been updated.
-#  Successfully updated.
-
 # files hash-table stats:
-# Load=75/1024=7%, Rehash=0, Collisions=17/453=4%
+# Load=19/1024=2%, Rehash=0, Collisions=0/60=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 98 / storage = 1655 B / avg = 16 B
-# current buf: size = 8162 B / used = 1655 B / count = 98 / avg = 16 B
+# strcache buffers: 1 (0) / strings = 45 / storage = 423 B / avg = 9 B
+# current buf: size = 8162 B / used = 423 B / count = 45 / avg = 9 B
 
-# strcache performance: lookups = 590 / hit rate = 83%
+# strcache performance: lookups = 84 / hit rate = 46%
 # hash-table stats:
-# Load=98/8192=1%, Rehash=0, Collisions=0/590=0%
-# Finished Make data base on Thu Jul 21 13:11:36 2022
+# Load=45/8192=1%, Rehash=0, Collisions=0/84=0%
+# Finished Make data base on Tue Jul 26 23:22:52 2022
 
  

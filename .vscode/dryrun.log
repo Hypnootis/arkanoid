@@ -1,13 +1,15 @@
-C:\msys64\mingw64\bin\mingw32-make.exe --dry-run --always-make --keep-going --print-directory
-mingw32-make: Entering directory 'c:/Projects/cpp/paska'
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/tuomas/Desktop/Projects/arkanoid'
+ 
 mkdir -p  bin
 g++ -MMD -MP -c -std=c++17 -I include src/entity.cpp -o bin/entity.o 
+ 
 mkdir -p  bin
 g++ -MMD -MP -c -std=c++17 -I include src/main.cpp -o bin/main.o 
 mkdir -p  bin
 g++ -MMD -MP -c -std=c++17 -I include src/paddle.cpp -o bin/paddle.o 
-g++  bin/entity.o  bin/main.o  bin/paddle.o -o bin/app -L lib/Windows -l raylib -Wl,--allow-multiple-definition -pthread -lopengl32 -lgdi32 -lwinmm -mwindows -static -static-libgcc -static-libstdc++
+g++  bin/entity.o  bin/main.o  bin/paddle.o -o bin/app -L lib/Linux -l raylib -l GL -l m -l pthread -l dl -l rt -l X11
 bin/app 
-del /q  bin\*
-mingw32-make: Leaving directory 'c:/Projects/cpp/paska'
+rm -rf  bin/*
+make: Leaving directory '/home/tuomas/Desktop/Projects/arkanoid'
  
