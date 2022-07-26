@@ -1,0 +1,769 @@
+C:\msys64\mingw64\bin\mingw32-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jul 21 13:11:36 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 18)
+compileFlags := -std=c++17 -I include
+# environment
+USERPROFILE = C:\Users\tmpas
+# environment
+LOCALAPPDATA = C:\Users\tmpas\AppData\Local
+# environment
+VSCODE_CWD = C:\Users\tmpas\AppData\Local\Programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# makefile (from 'Makefile', line 28)
+THEN := &&
+# default
+MAKE_COMMAND := C:/msys64/mingw64/bin/mingw32-make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16928_KYFRVSZSFOJKFCXC
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\tmpas\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\tmpas\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\tmpas\OneDrive
+# makefile (from 'Makefile', line 17)
+depends :=  bin/entity.d  bin/main.d  bin/paddle.d
+# makefile
+CURDIR := c:/Projects/cpp/paska
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 29)
+PATHSEP := \
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'bin/paddle.d', line 1)
+MAKEFILE_LIST := Makefile bin/entity.d bin/main.d bin/paddle.d
+# automatic
+@F = $(notdir $@)
+# environment
+PT8HOME = C:\Program Files\Cisco Packet Tracer 8.1.1
+# environment
+VSCODE_PID = 16928
+# makefile (from 'Makefile', line 15)
+sources := src/entity.cpp src/main.cpp src/paddle.cpp          
+# makefile (from 'Makefile', line 9)
+platformpth = $(subst /,$(PATHSEP),$1)
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\tmpas\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\tmpas
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 16)
+objects :=  bin/entity.o  bin/main.o  bin/paddle.o
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 30)
+MKDIR := -mkdir -p
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\tmpas\AppData\Local\Programs\Python\Python39;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\PuTTY\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\tmpas\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\tmpas\AppData\Local\Programs\Python\Py 
+thon39\;C:\Users\tmpas\.cargo\bin;C:\Users\tmpas\AppData\Local\Microsoft\WindowsApps;C:\Users\tmpas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tmpas\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Nmap;C:\msys64\mingw64\bin;
+# environment
+COMPUTERNAME = DESKTOP-SMOBNTK
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 27)
+libGenDir := src
+# environment
+LOGONSERVER = \\DESKTOP-SMOBNTK
+# environment
+USERNAME = tmpas
+# makefile (from 'Makefile', line 26)
+linkFlags = -L lib/$(platform) -l raylib -Wl,--allow-multiple-definition -pthread -lopengl32 -lgdi32 -lwinmm -mwindows -static -static-libgcc -static-libstdc++
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-SMOBNTK
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 31)
+RM := -del /q
+# makefile (from 'Makefile', line 24)
+platform := Windows
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 32)
+COPY = -robocopy "$(call platformpth,$1)" "$(call platformpth,$2)" $3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-SMOBNTK
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\tmpas\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;
+# makefile (from 'Makefile', line 12)
+buildDir := bin
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\tmpas\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\0d9026a3ff619df4d3add967cb8b74a1-1.69.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 13)
+executable := app
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 7e05
+# makefile (from 'Makefile', line 14)
+target := bin/app
+# makefile (from 'Makefile', line 25)
+CXX = g++
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+# makefile (from 'Makefile', line 8)
+rwildcard = $(wildcard $1$2) $(foreach d,$ 
+(wildcard $1*),$(call rwildcard,$d/,$2))
+# variable set hash-table stats:
+# Load=107/1024=10%, Rehash=0, Collisions=15/178=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/paddle.cpp (key c:/Projects/cpp/paska/src/paddle.cpp, mtime 1658276959): could not be opened.
+# src/paddle.hpp (key c:/Projects/cpp/paska/src/paddle.hpp, mtime 1658276064): could not be opened.
+# src/main.cpp (key c:/Projects/cpp/paska/src/main.cpp, mtime 1658398291): could not be opened.
+# src (key c:/Projects/cpp/paska/src, mtime 1658272816): 7 files, no impossibilities.
+# src/entity.hpp (key c:/Projects/cpp/paska/src/entity.hpp, mtime 1658276929): could not be opened.
+# . (key c:/Projects/cpp/paska, mtime 1658250658): 17 files, no impossibilities.
+# src/entity.cpp (key c:/Projects/cpp/paska/src/entity.cpp, mtime 1658276833): could not be opened.
+
+# 24 files, no impossibilities in 7 directories.
+
+# Implicit Rules
+
+bin/%.o: src/%.cpp Makefile
+#  recipe to execute (from 'Makefile', line 93):
+	$(MKDIR) $(call platformpth, $(@D))
+	$(CXX) -MMD -MP -c $(compileFlags) $< -o $@ $(CXXFLAGS)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+execute:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 98):
+	$(target) $(ARGS)
+
+# Not a target:
+bin/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-20 03:28:54
+#  File has been updated.
+#  Successfully updated.
+
+include/./Camera2D.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+src/paddle.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-20 03:14:24
+#  File has been updated.
+#  Successfully updated.
+
+bin/entity.o: src/entity.cpp Makefile src/entity.cpp include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Texture.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/entity.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'entity'
+#  Last modified 2022-07-20 03:28:53
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 93):
+	$(MKDIR) $(call platformpth, $(@D))
+	$(CXX) -MMD -MP -c $(compileFlags) $< -o $@ $(CXXFLAGS)
+
+include/./././raylib.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+bin/main.o: src/main.cpp Makefile src/main.cpp include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Texture.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/paddle.hpp src/entity.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-07-20 03:28:54
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := bin/main.o
+# automatic
+# * := main
+# automatic
+# < := src/main.cpp
+# automatic
+# + := src/main.cpp Makefile src/main.cpp include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Texture.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/paddle.hpp src/entity.hpp
+# automatic
+# % := 
+# automatic
+# ^ := src/main.cpp Makefile include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/paddle.hpp src/entity.hpp
+# automatic
+# ? := src/main.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=8/22=36%
+#  recipe to execute (from 'Makefile', line 93):
+	$(MKDIR) $(call platformpth, $(@D))
+	$(CXX) -MMD -MP -c $(compileFlags) $< -o $@ $(CXXFLAGS)
+
+submodules:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	git submodule update --init --recursive
+
+setup: include lib
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+bin/paddle.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-20 03:28:54
+#  File has been updated.
+#  Successfully updated.
+
+include/././Vector2.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Mesh.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Text.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./././raymath.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./ModelAnimation.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Vector4.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:49:12
+#  File has been updated.
+#  Successfully updated.
+
+lib: submodules
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	cd vendor/raylib/src $(THEN) "$(MAKE)" PLATFORM=PLATFORM_DESKTOP
+	$(MKDIR) $(call platformpth, lib/$(platform))
+	$(call COPY,vendor/raylib/$(libGenDir),lib/$(platform),libraylib.a)
+
+include/./BoundingBox.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././raylib.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:57
+#  File has been updated.
+#  Successfully updated.
+
+include/./RayCollision.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+bin/app: bin/entity.o bin/main.o bin/paddle.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+#  recipe to execute (from 'Makefile', line 86):
+	$(CXX) $(objects) -o $(target) $(linkFlags)
+
+include/./Shader.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include: submodules
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 73):
+	$(MKDIR) $(call platformpth, ./include)
+	$(call COPY,vendor/raylib/src,./include,raylib.h)
+	$(call COPY,vendor/raylib/src,./include,raymath.h)
+	$(call COPY,vendor/raylib-cpp/include,./include,*.hpp)
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-21 13:11:31
+#  File has been updated.
+#  Successfully updated.
+
+include/././Model.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 102):
+	$(RM) $(call platformpth, $(buildDir)/*)
+
+include/./Vector2.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././Vector3.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Camera3D.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Window.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+src/entity.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-20 03:28:49
+#  File has been updated.
+#  Successfully updated.
+
+include/./Mouse.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Wave.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Color.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./././raymath.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:57
+#  File has been updated.
+#  Successfully updated.
+
+include/././RayCollision.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./././raylib-cpp-utils.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+bin/paddle.o: src/paddle.cpp src/paddle.hpp include/raylib-cpp.hpp include/./AudioDevice.hpp include/././raylib.hpp include/././raylib.h include/././raylib-cpp-utils.hpp include/././RaylibException.hpp include/./././raylib.hpp include/./AudioStream.hpp include/./BoundingBox.hpp include/./Camera2D.hpp include/././Vector2.hpp include/./././raymath.hpp include/./././raymath.h include/./././raylib-cpp-utils.hpp include/./Camera3D.hpp include/././Vector3.hpp include/./Color.hpp include/././Vector4.hpp include/./Font.hpp include/./Functions.hpp include/./Gamepad.hpp include/./Image.hpp include/./Material.hpp include/./Matrix.hpp include/././raymath.hpp include/./Mesh.hpp include/././BoundingBox.hpp include/././Model.hpp include/./././Mesh.hpp include/./././RaylibException.hpp include/./Model.hpp include/./ModelAnimation.hpp include/././Mesh.hpp include/./Mouse.hpp include/./Music.hpp include/./Ray.hpp include/././RayCollision.hpp include/./RaylibException.hpp include/./RayCollision.hpp include/./Rectangle.hpp include/./RenderTexture.hpp include/./Shader.hpp include/./Texture.hpp include/././Material.hpp include/./Sound.hpp include/./Text.hpp include/./Texture.hpp include/./Vector2.hpp include/./Vector3.hpp include/./Vector4.hpp include/./VrStereoConfig.hpp include/./Wave.hpp include/./Window.hpp src/entity.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/paddle.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/./VrStereoConfig.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/raylib-cpp.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././BoundingBox.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./AudioDevice.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././raylib.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/././raylib-cpp-utils.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Material.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+all: bin/app execute clean
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+
+include/./Font.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././Mesh.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/entity.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-20 03:27:13
+#  File has been updated.
+#  Successfully updated.
+
+include/./Image.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Matrix.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Sound.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Texture.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././raymath.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./RenderTexture.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././Material.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+bin/entity.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-20 03:28:53
+#  File has been updated.
+#  Successfully updated.
+
+include/./AudioStream.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././Vector4.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Model.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Vector3.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Rectangle.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Gamepad.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./././Mesh.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Ray.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./Functions.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./././RaylibException.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all setup submodules execute clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/./Music.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/./RaylibException.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+include/././RaylibException.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-07 12:51:59
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=75/1024=7%, Rehash=0, Collisions=17/453=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 98 / storage = 1655 B / avg = 16 B
+# current buf: size = 8162 B / used = 1655 B / count = 98 / avg = 16 B
+
+# strcache performance: lookups = 590 / hit rate = 83%
+# hash-table stats:
+# Load=98/8192=1%, Rehash=0, Collisions=0/590=0%
+# Finished Make data base on Thu Jul 21 13:11:36 2022
+
+ 
