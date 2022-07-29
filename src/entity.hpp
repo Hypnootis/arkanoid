@@ -2,6 +2,7 @@
 
 #include "raylib-cpp.hpp"
 
+// Using a template to not have the size be a certain type, i.e vector.
 template<typename Size>
 class Entity {
     public:
