@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 29 14:48:48 2022
+# Make data base, printed on Sat Jul 30 00:33:41 2022
 
 # Variables
 
@@ -63,6 +63,7 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
 # automatic
 %F = $(notdir $%)
 # environment
+ 
 VSCODE_CODE_CACHE_PATH = /home/tuomas/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LANG = C
@@ -105,7 +106,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9741
+VSCODE_PID = 7644
 # makefile (from 'Makefile', line 15)
 sources := src/ball.cpp src/entity.cpp src/main.cpp src/paddle.cpp              
 # environment
@@ -117,7 +118,7 @@ platformpth = $(subst /,$(PATHSEP),$1)
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/TUOMAS-PC:@/tmp/.ICE-unix/2148,unix/TUOMAS-PC:/tmp/.ICE-unix/2148
+SESSION_MANAGER = local/TUOMAS-PC:@/tmp/.ICE-unix/2158,unix/TUOMAS-PC:/tmp/.ICE-unix/2158
 # automatic
 *F = $(notdir $*)
 # environment
@@ -167,7 +168,7 @@ LC_TIME = fi_FI.UTF-8
 # environment
 SNAP = /snap/code/102
 # environment
-INVOCATION_ID = ccd8057aa40e4b1f98169143c3de31cb
+INVOCATION_ID = 20585a71566a43069f37a5912fb86d8b
 # environment
 SNAP_REVISION = 102
 # environment
@@ -203,7 +204,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 2212
+SYSTEMD_EXEC_PID = 2225
 # makefile (from 'Makefile', line 54)
 RM := rm -rf
 # makefile (from 'Makefile', line 38)
@@ -227,11 +228,11 @@ SNAP_DATA = /var/snap/code/102
 # environment
 SNAP_CONTEXT = 84W_0YzStv3rEs0SAiNseyYdl14fZ4RmCCWIq7i019VfDWyChJnZ
 # environment
-MANAGERPID = 1782
+MANAGERPID = 1774
 # environment
 LC_MEASUREMENT = fi_FI.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 9690
+GIO_LAUNCHED_DESKTOP_FILE_PID = 7597
 # environment
 _ = /snap/code/102/usr/share/code/code
 # environment
@@ -243,7 +244,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/tuomas/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:35897
+JOURNAL_STREAM = 8:34322
 # makefile (from 'Makefile', line 12)
 buildDir := bin
 # environment
@@ -286,7 +287,6 @@ target := bin/app
 CXX = g++
 # environment
 SNAP_USER_DATA = /home/tuomas/snap/code/102
- 
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -431,6 +431,7 @@ bin/ball.o: src/ball.cpp Makefile
 	$(CXX) -MMD -MP -c $(compileFlags) $< -o $@ $(CXXFLAGS)
 
 include: submodules
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -457,7 +458,7 @@ bin/paddle.o:
 # Not a target:
 src/ball.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-27 02:49:53.742472316
+#  Last modified 2022-07-29 18:57:51.279987148
 #  File has been updated.
 #  Successfully updated.
 
@@ -510,6 +511,6 @@ bin/ball.d:
 # strcache performance: lookups = 91 / hit rate = 43%
 # hash-table stats:
 # Load=51/8192=1%, Rehash=0, Collisions=0/91=0%
-# Finished Make data base on Fri Jul 29 14:48:48 2022
+# Finished Make data base on Sat Jul 30 00:33:41 2022
 
  

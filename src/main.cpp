@@ -2,6 +2,8 @@
 #include <array>
 #include "paddle.hpp"
 #include "ball.hpp"
+#include <iostream>
+#include <string>
 
 
 int main() {
@@ -24,11 +26,11 @@ int main() {
     
     SetTargetFPS(60);
 
-    float speed = 500.0f; // This is in px/millisecond, due to deltaTime being used
+    float speed = 50.0f; // This is in px/millisecond, due to deltaTime being used
     
-    raylib::Vector2 speedVector = {speed, 0.0f};
-    raylib::Vector2 ballSpeed = {1.0f, 1.0f};
-    raylib::Vector2 ballDirection = {-1.0f, 0.5f};
+    // raylib::Vector2 speedVector = {speed, 0.0f};
+    float ballSpeed = 100.0f;
+    raylib::Vector2 ballDirection = {-1.5f, 0.3f};
 
 
 
@@ -43,16 +45,25 @@ int main() {
         
         if (IsKeyDown(KEY_A) && newPaddle.getPosition().x >= 0){
             // -speed = -1.0 * speedVector{speed, 0.0f}, for inverse
-            newPaddle.move(-speedVector * deltaTime);
+            newPaddle.move(-(newPaddle.getPosition().x + speed) * deltaTime);
         }
 
         if (IsKeyDown(KEY_D) && newPaddle.getPosition().x < screenWidth - newPaddle.size.x){
-            newPaddle.move(speedVector * deltaTime);
+            newPaddle.move((newPaddle.getPosition().x + speed) * deltaTime);
         }
     
         // TODO: Update your variables here
 
-        newBall.move((ballDirection * speedVector) * deltaTime);
+        if (newBall.getPosition().x < 0 || newBall.getPosition().x >= screenWidth - newBall.size){
+            ballDirection.x * -1;
+        }
+
+         if (newBall.getPosition().y < 0 + newBall.size || newBall.getPosition().y >= screenHeight - newBall.size){
+            ballDirection.y * -1;
+        }
+
+
+        newBall.move((ballDirection * ballSpeed) * deltaTime);
 
 
         // Draw
