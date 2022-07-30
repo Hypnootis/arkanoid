@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 30 00:33:41 2022
+# Make data base, printed on Sat Jul 30 16:18:03 2022
 
 # Variables
 
@@ -15,7 +15,7 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # makefile (from 'Makefile', line 18)
-compileFlags := -std=c++17 -I include
+compileFlags := -std=c++17 -I include -Wall
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -25,13 +25,11 @@ SNAP_INSTANCE_KEY =
 # makefile (from 'Makefile', line 35)
 UNAMEOS := Linux
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
 LC_NAME = fi_FI.UTF-8
 # environment
 LC_NUMERIC = fi_FI.UTF-8
 # environment
-VSCODE_CWD = /home/tuomas
+VSCODE_CWD = /home/tuomas/Desktop/Projects/arkanoid
 # environment
 WINDOWPATH = 2
 # environment
@@ -63,7 +61,6 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
 # automatic
 %F = $(notdir $%)
 # environment
- 
 VSCODE_CODE_CACHE_PATH = /home/tuomas/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LANG = C
@@ -73,10 +70,14 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+GNOME_TERMINAL_SERVICE = :1.442
 # makefile
 MAKEFLAGS = pqrR
 # makefile (from 'Makefile', line 17)
 depends :=  bin/ball.d  bin/entity.d  bin/main.d  bin/paddle.d
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=57e3d47c29bdeaedb8d0321f62e51a56
 # makefile
 CURDIR := /home/tuomas/Desktop/Projects/arkanoid
 # environment
@@ -106,7 +107,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 7644
+VSCODE_PID = 17557
 # makefile (from 'Makefile', line 15)
 sources := src/ball.cpp src/entity.cpp src/main.cpp src/paddle.cpp              
 # environment
@@ -116,15 +117,13 @@ platformpth = $(subst /,$(PATHSEP),$1)
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
-# environment
-SESSION_MANAGER = local/TUOMAS-PC:@/tmp/.ICE-unix/2158,unix/TUOMAS-PC:/tmp/.ICE-unix/2158
+SESSION_MANAGER = local/TUOMAS-PC:@/tmp/.ICE-unix/2130,unix/TUOMAS-PC:/tmp/.ICE-unix/2130
 # automatic
 *F = $(notdir $*)
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=57e3d47c29bdeaedb8d0321f62e51a56
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
@@ -142,9 +141,9 @@ XMODIFIERS = @im=ibus
 # makefile (from 'Makefile', line 16)
 objects :=  bin/ball.o  bin/entity.o  bin/main.o  bin/paddle.o
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+SHLVL = 1
 # environment
-SHLVL = 0
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/3b5f9e53_0fd5_48d4_833c_429c90a67df5
 # environment
 MAKELEVEL := 0
 # makefile (from 'Makefile', line 53)
@@ -168,8 +167,6 @@ LC_TIME = fi_FI.UTF-8
 # environment
 SNAP = /snap/code/102
 # environment
-INVOCATION_ID = 20585a71566a43069f37a5912fb86d8b
-# environment
 SNAP_REVISION = 102
 # environment
 SNAP_REAL_HOME = /home/tuomas
@@ -186,7 +183,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
-LS_COLORS = 
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # automatic
 +F = $(notdir $+)
 # environment
@@ -198,13 +195,11 @@ GNUMAKEFLAGS :=
 # environment
 LOGNAME = tuomas
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
-# environment
 SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 2225
+SYSTEMD_EXEC_PID = 2130
 # makefile (from 'Makefile', line 54)
 RM := rm -rf
 # makefile (from 'Makefile', line 38)
@@ -228,13 +223,9 @@ SNAP_DATA = /var/snap/code/102
 # environment
 SNAP_CONTEXT = 84W_0YzStv3rEs0SAiNseyYdl14fZ4RmCCWIq7i019VfDWyChJnZ
 # environment
-MANAGERPID = 1774
+DBUS_STARTER_BUS_TYPE = session
 # environment
 LC_MEASUREMENT = fi_FI.UTF-8
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7597
-# environment
-_ = /snap/code/102/usr/share/code/code
 # environment
 LC_PAPER = fi_FI.UTF-8
 # environment
@@ -242,9 +233,9 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-GDK_PIXBUF_MODULE_FILE = /home/tuomas/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+COLORTERM = truecolor
 # environment
-JOURNAL_STREAM = 8:34322
+GDK_PIXBUF_MODULE_FILE = /home/tuomas/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # makefile (from 'Makefile', line 12)
 buildDir := bin
 # environment
@@ -259,6 +250,8 @@ QT_IM_MODULE = ibus
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-55fd68db-1.69.2-main.sock
+# environment
+TERM = xterm-256color
 # environment
 SNAP_NAME = code
 # environment
@@ -278,6 +271,8 @@ ELECTRON_NO_ATTACH_CONSOLE = 1
 # makefile (from 'Makefile', line 13)
 executable := app
 # environment
+VTE_VERSION = 6800
+# environment
 SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
@@ -285,6 +280,7 @@ SNAP_COMMON = /var/snap/code/common
 target := bin/app
 # makefile (from 'Makefile', line 39)
 CXX = g++
+ 
 # environment
 SNAP_USER_DATA = /home/tuomas/snap/code/102
 # environment
@@ -298,7 +294,7 @@ rwildcard = $(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=143/1024=14%, Rehash=0, Collisions=12/219=5%
+# Load=141/1024=14%, Rehash=0, Collisions=20/217=9%
 
 # Pattern-specific Variable Values
 
@@ -313,10 +309,10 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # src (device 66306, inode 3147813): 9 files, no impossibilities.
 # src/entity.hpp (device 66306, inode 3147815): could not be opened.
 # src/ball.hpp (device 66306, inode 3147703): could not be opened.
-# . (device 66306, inode 3146224): 15 files, no impossibilities.
+# . (device 66306, inode 3146224): 16 files, no impossibilities.
 # src/entity.cpp (device 66306, inode 3147814): could not be opened.
 
-# 24 files, no impossibilities in 9 directories.
+# 25 files, no impossibilities in 9 directories.
 
 # Implicit Rules
 
@@ -379,7 +375,7 @@ bin/paddle.d:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-26 23:22:44.67482473
+#  Last modified 2022-07-30 16:08:44.273880329
 #  File has been updated.
 #  Successfully updated.
 
@@ -431,7 +427,6 @@ bin/ball.o: src/ball.cpp Makefile
 	$(CXX) -MMD -MP -c $(compileFlags) $< -o $@ $(CXXFLAGS)
 
 include: submodules
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -505,12 +500,12 @@ bin/ball.d:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 51 / storage = 487 B / avg = 9 B
-# current buf: size = 8162 B / used = 487 B / count = 51 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 52 / storage = 497 B / avg = 9 B
+# current buf: size = 8162 B / used = 497 B / count = 52 / avg = 9 B
 
-# strcache performance: lookups = 91 / hit rate = 43%
+# strcache performance: lookups = 92 / hit rate = 43%
 # hash-table stats:
-# Load=51/8192=1%, Rehash=0, Collisions=0/91=0%
-# Finished Make data base on Sat Jul 30 00:33:41 2022
+# Load=52/8192=1%, Rehash=0, Collisions=0/92=0%
+# Finished Make data base on Sat Jul 30 16:18:03 2022
 
  

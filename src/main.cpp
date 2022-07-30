@@ -2,7 +2,6 @@
 #include <array>
 #include "paddle.hpp"
 #include "ball.hpp"
-#include <iostream>
 #include <string>
 
 
@@ -26,10 +25,10 @@ int main() {
     
     SetTargetFPS(60);
 
-    float speed = 50.0f; // This is in px/millisecond, due to deltaTime being used
+    float speed = 100.0f; // This is in px/millisecond, due to deltaTime being used
     
     // raylib::Vector2 speedVector = {speed, 0.0f};
-    float ballSpeed = 100.0f;
+    float ballSpeed = 200.0f;
     raylib::Vector2 ballDirection = {-1.5f, 0.3f};
 
 
@@ -54,12 +53,16 @@ int main() {
     
         // TODO: Update your variables here
 
-        if (newBall.getPosition().x < 0 || newBall.getPosition().x >= screenWidth - newBall.size){
-            ballDirection.x * -1;
+        if (newBall.getPosition().x < 0 || newBall.getPosition().x >= screenWidth){
+            ballDirection.x *= -1;
         }
 
-         if (newBall.getPosition().y < 0 + newBall.size || newBall.getPosition().y >= screenHeight - newBall.size){
-            ballDirection.y * -1;
+        if (newBall.getPosition().y >= screenHeight || newBall.getPosition().y < 0){
+            ballDirection.y *= -1;
+        }
+
+        if (!){
+
         }
 
 
