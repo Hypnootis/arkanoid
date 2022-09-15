@@ -1,4 +1,4 @@
-# Mark(k)anoid
+# (M)ark(k)anoid
 Arkanoid clone in C++ using <a href="https://github.com/raysan5/raylib">Raylib</a>
 
 <a href="https://logonoid.com/c-plus-plus-logo/" target="_blank"><img src="https://logonoid.com/images/thumbs/c-plus-plus-logo.png"  alt="C++ Logo" /></a>
